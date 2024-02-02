@@ -1,139 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Practise</title>
     <style>
-        /* .x{
+      /* .x{
             color: blueviolet;
         } */
-        /* .a{
+      /* .a{
             background-color: aquamarine;
             font-size: xx-large;
         } */
-        /* .a{
+      /* .a{
             font-weight: bolder;
             color: crimson;
             background-color: cyan;
         } */
-
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        // var a=767565;
-        // document.write(a);
-        // var x="mounika.bonagiri";
-        // document.write('<span class="x">'+x+'</span>');
-        // var a=[1,235,3645,45,5446,43734357,"mounika","mouni","mounika","mouni",
-        // "mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni",
-        // "mounika","mouni","mounika","mouni",32464,73,53,7,5,56,6,35,365,7];
-        // document.write(a[0]);
-        // document.write('<span class="a">'+ a.length +'</span>');
-//     var a=897;
-//     var b=8976;
-//     var c;
-//    document.write(c=a+b);
-    // var a = {
-    //   a1:"mounika",
-    //   b1:54,
-    //   c1:"bonagiri",
+      // var a=767565;
+      // document.write(a);
+      // var x="mounika.bonagiri";
+      // document.write('<span class="x">'+x+'</span>');
+      // var a=[1,235,3645,45,5446,43734357,"mounika","mouni","mounika","mouni",
+      // "mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni","mounika","mouni",
+      // "mounika","mouni","mounika","mouni",32464,73,53,7,5,56,6,35,365,7];
+      // document.write(a[0]);
+      // document.write('<span class="a">'+ a.length +'</span>');
+      //     var a=897;
+      //     var b=8976;
+      //     var c;
+      //    document.write(c=a+b);
+      // var a = {
+      //   a1:"mounika",
+      //   b1:54,
+      //   c1:"bonagiri",
+      // }
+      // document.write(a.b1);
+      // document.write(a["c1"]);
+      // document.write('<span class="a">' +a["c1"]+ '</span>');
+      // var m=78;
+      // document.write(++m);
+      // m=m+10;
+      // document.write(m=m+3)
+      // document.write(m++);
+      // document.write(m);
+      // var v=543;
+      // // document.write(--v);
+      // document.write(v-- );
+      // document.write(v)
+      // var a=786;
+      // var b=776;
+      // document.write(a+b);
+      // var a=786;
+      // var b=776;
+      // document.write(a-b);
+      // var a=786;
+      // var b=776;
+      // document.write(a*b);
+      // var a=786;
+      // var b=776;
+      // document.write(a/b);
+      // var a=786;
+      // var b=776;
+      // document.write(a%b);
+      // var a=67;
+      // var b="67";
+      // // document.write(a<b);
+      // // document.write(a>b);
+      // document.write(a==b);
+      // var a=34;
+      // var a=-7867;
+      // var a=-0.987;
+      // var a=0.987;
+      // var a= 0;
+      // if(a>0){
+      //    document.write("a is positive");
+      // }else if(a<0){
+      //     document.write("a is negative");
+      // }else{
+      //     document.write("a is zero");
+      // }
+      // var a=9876763;
+      // if(a%2==0){
+      //     document.write("a is even number")
+      // }else{
+      //     document.write("a is odd number")
+      // }
+      // var a="moun";
+      // var a=56;
+      // var a=7098765;
+      // var a=8;
+      // if(a%2==1){
+      //     document.write("odd number");
+      // }else if (a%2==0){
+      //     document.write("even number");
+      // }else{
+      //     document.write("not a number")
+      // }
+      // var a=7;
+      // var a= -7;
+      // var a=0;
+      // if(a>0){
+      //     document.write("a is positive")
+      // }else if (a<0){
+      //     document.write("a is negative")
+      // }else{
+      //     document.write("zero_hero")
+      // }
+      // var a=7815;
+      // if(a<100){
+      //     document.write("two digit number")
+      // }else if(a<1000){
+      //     document.write("three digit number")
+      // }else if(a<10000){
+      //     document.write("four digit number")
+      // }else if(a<100000){
+      //     document.write("five digit number")
+      // }else if(a<1000000){
+      //     document.write("six digit number")
+      // }else{
+      //     document.write("biggest number")
+      // }
+      // var i=0;
+      // do{
+      //     console.log(i);
+      //     i++;
+      // }while(i%2==0)
+    //   <h2>SWITCH</h2>
+    //   var exp = 14;
+    //   switch (exp % 2) {
+    //     case 0:
+    //       console.log("even");
+    //       break;
+    //     case 1:
+    //       console.log("odd");
+    //       break;
+    //     default:
+    //       console.log("invalid");
+    //   }
+    // var exp=0;
+    // switch(exp){
+    //     case 8:
+    //         console.log("monday");
+    //         break;
+    //         case 1:
+    //         console.log("tuesday");
+    //         break;
+    //         case 2:
+    //         console.log("wednesday");
+    //         break;
+    //         case 3:
+    //         console.log("thursday");
+    //         break;
+    //         case 4:
+    //         console.log("friday");
+    //         break;
+    //         case 5:
+    //         console.log("saturday");
+    //         break;
+    //         case 6:
+    //         console.log("sunday");
+    //         break;
+    //         default:
+    //             console.log("not a day")
     // }
-    // document.write(a.b1);
-    // document.write(a["c1"]);
-    // document.write('<span class="a">' +a["c1"]+ '</span>');
-// var m=78;
-// document.write(++m);
-// m=m+10;
-// document.write(m=m+3)
-// document.write(m++);
-// document.write(m);
-// var v=543;
-// // document.write(--v);
-// document.write(v-- );
-// document.write(v)
-// var a=786;
-// var b=776;
-// document.write(a+b);
-// var a=786;
-// var b=776;
-// document.write(a-b);
-// var a=786;
-// var b=776;
-// document.write(a*b);
-// var a=786;
-// var b=776;
-// document.write(a/b);
-// var a=786;
-// var b=776;
-// document.write(a%b);
-// var a=67;
-// var b="67";
-// // document.write(a<b);
-// // document.write(a>b);
-// document.write(a==b);
-// var a=34;
-// var a=-7867;
-// var a=-0.987;
-// var a=0.987;
-// var a= 0;
-// if(a>0){
-//    document.write("a is positive");
-// }else if(a<0){
-//     document.write("a is negative");
-// }else{
-//     document.write("a is zero");
+    // var exp=-7;
+    // switch(true){
+    //     case(exp>0):
+    //         console.log("positive nmbr");
+    //     break;
+    //     case (exp<0):
+    //         console.log("negative number");
+    //     break;
+    //     default:
+    //         console.log("zero-hero");
+
+    // }
+    // var exp=99989809;
+    // switch(true){
+    //     case(exp<100):
+    //     console.log("two nmbr");
+    //     break;
+    //     case(exp<1000):
+    //     console.log("three nmbr");
+    //     break;
+    //     case(exp<10000):
+    //     console.log("four nmbr");
+    //     break;
+    //     case(exp<100000):
+    //     console.log("five nmbr");
+    //     break;
+    //     case(exp<10000000):
+    //     console.log("six nmbr");
+    //     break;
+    //     default:
+    //         console.log("big bigger biggest nmbr")
+// <h1>looping</h1>
+    // }
+    // for (i=0;i<=10;i++){
+    //     console.log(i);
+    // }
+    // for(i=0;i<=10;i++){
+    //     console.log("mounika")
+    // }
+    // <h2>To print even numbers using for loop</h2>
+    // for(i=0;i<=20;i+=2){
+    //     console.log(i);
+    // }
+    // <h2>To print odd numbers using for loop</h2>
+    // for(i=1;i<=20;i+=2){
+    //     console.log(i);
+    // }
+    // var i=0;
+    // while(i<=10){
+    //     console.log(i);
+    //     i++;
+    // }
+    // var i=3;
+    // do{
+    //     console.log(i);
+    //     i+=2;
+    // }while(i<=10)
+    // <h1>Functions</h1>
+    // function hello(){
+    //     document.write("mounika");     
+    // }
+    // hello();
+    // document.write(hello)
+    // function name(){
+    //     document.write("pandu");
+    // }
+    // name();
+    // document.write(name);
+//     function number(a,b){
+//         var c=a*b;
+//         console.log(c); 
+//         return c;   
+//     }
+//   number (9877,1283);
+// <h2>default parameters</h2>
+// function number(a=3,b=6){
+//         var c=a*b;
+//         console.log(c); 
+//         return c;   
+//     }
+//   number ();
+//   console.log(number());
+//   var h=number();
+//   console.log(h);
+// function add(a,b){
+//     c=a+b;
+//     console.log(a+b);
+//     return c;
 // }
-// var a=9876763;
-// if(a%2==0){
-//     document.write("a is even number")
-// }else{
-//     document.write("a is odd number")
+// add(4,9);
+// function myname(){
+//     console.log("pandu")
 // }
-// var a="moun";
-// var a=56;
-// var a=7098765;
-// var a=8;
-// if(a%2==1){
-//     document.write("odd number");
-// }else if (a%2==0){
-//     document.write("even number");
-// }else{
-//     document.write("not a number")
-// }
-// var a=7;
-// var a= -7;
-// var a=0;
-// if(a>0){
-//     document.write("a is positive")
-// }else if (a<0){
-//     document.write("a is negative")
-// }else{
-//     document.write("zero_hero")
-// }
-var a=78534909;
-if(a<100){
-    document.write("two digit number")
-}else if(a<1000){
-    document.write("three digit number")
-}else if(a<10000){
-    document.write("four digit number")
-}else if(a<100000){
-    document.write("five digit number")
-}else if(a<1000000){
-    document.write("six digit number")
-}else{
-    document.write("biggest number")
-}
+// myname();
+// console.log(myname);
 
 
+   
+   
+    
+
+
+ 
+
+
+   
+    
+
+
+    
+
+    
+
+
+
+
+
+   
     </script>
-</body>
+  </body>
 </html>
 <!-- 1.console.log(print number),declaration,assigning.
 2.Arrays[]
 3.Objects{}
 4.increment,decrement
 5.Operator(assignment,compariosnal)
-6.conditional(if,if-else,else-if,Nested-if) -->
+6.conditional(if,if-else,else-if,Nested-if,switch)
+7.looping
+8.functions -->
